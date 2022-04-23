@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Folha de Pagamento</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form action="folha.php" method="POST">
+        <h2>Folha de Pagamento</h2>
+        <br />
+        <h4>Funcionário:<input type="text" name="nmfunc" /><br /></h4>
+        <h4>ID Funcionário:<input type="number" name="idfunc" /><br /></h4>
+        <h4>
+          Insira o valor da hora:<input type="text" name="valorhora" /><br />
+        </h4>
+        <h4>
+          Insira a quantidade de horas trabalhadas por mês:<input
+            type="text"
+            name="horastrabmens"
+          /><br />
+        </h4>
+        <button type="submit" class="submit">Calcular</button>
+      </form>
+    </div>
+  </body>
+</html>
